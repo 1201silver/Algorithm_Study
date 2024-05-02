@@ -40,7 +40,6 @@ public class b2331 {
             dfs(sum);
         } else {
             idx = list.indexOf(sum);
-            return;
         }
     }
 }
