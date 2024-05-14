@@ -46,7 +46,7 @@ public class b1303 {
                 sum += (int) Math.pow(cnt, 2);
             }
         }
-        sb.append(sum + " ");
+        sb.append(sum).append(" ");
 
         sum = 0;
         for(int i = 0; i < m; i++) {
@@ -58,7 +58,7 @@ public class b1303 {
                 sum += (int) Math.pow(cnt, 2);
             }
         }
-        sb.append(sum + " ");
+        sb.append(sum).append(" ");
 
         System.out.print(sb);
     }
