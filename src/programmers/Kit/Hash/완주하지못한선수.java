@@ -17,9 +17,7 @@ class 완주하지못한선수 {
         }
 
         for(String name : completion) {
-            if(partcp.containsKey(name)) {
-                partcp.put(name, partcp.get(name) - 1);
-            }
+            partcp.put(name, partcp.get(name) - 1);
         }
 
         for(String name : partcp.keySet()) {
