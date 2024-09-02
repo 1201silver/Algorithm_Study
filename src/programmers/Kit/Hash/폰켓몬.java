@@ -2,7 +2,7 @@ package programmers.Kit.Hash;
 
 import java.util.HashMap;
 
-class Solution {
+class 폰켓몬 {
     public int solution(int[] nums) {
         HashMap<Integer, Integer> pocket = new HashMap<>();
         for(int i = 0; i < nums.length; i++) {
